@@ -1,0 +1,21 @@
+<div class="update-container">
+    <form (ngSubmit) = "onSubmit()">
+      <div class="top-container">
+      <div class="top-left">Update Account</div>
+      <a routerLink="/login" href="#" class="top-right">Login</a>
+      </div>
+      <div class="form-container">
+          <input type="text" placeholder="First Name" [(ngModel)] = "account.firstName" name = "firstName">
+          <input type="text" placeholder="Last Name" [(ngModel)] = "account.lastName" name = "lastName">
+          <input type="email" placeholder="Email" [(ngModel)] = "account.emailId" name = "emailId">
+          <input type="tel" placeholder="Phone Number" [(ngModel)] = "account.phoneNumber" name = "phoneNumber">
+          
+          <input type="password" placeholder="Password" [(ngModel)] = "account.password" name = "password">
+          <input type="password" placeholder="Confirm Password">
+  
+          <button class = "btn" type = "submit">Update Account</button>
+      </div>
+    </form>
+  </div>
+  
+  

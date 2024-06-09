@@ -1,0 +1,70 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    position: relative;
+    margin-top: 50px;
+}
+.top-container {
+    display: flex; /* Dodato */
+    justify-content: space-between;
+    width: 465px;
+}
+.top-left {
+    height: 31px;
+    width: 56px;
+    font-size: 24px;
+    color: #131D24;
+  }
+  
+.top-right {
+    
+    font-size: 18px;
+    color: #FD6F60;
+    text-align: right;
+    text-decoration: none;
+
+  }
+.form-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width: 465px;
+    height: 53px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 2px;
+    border-radius: 2px;
+    
+}
+input::placeholder {
+    font-size: 16px;
+    color: #131D24;
+    opacity: 0.4;
+    width: 100px; /* Prilagodite širinu prema vašim potrebama */
+    height: 20px; /* Prilagodite visinu prema vašim potrebama */
+    padding-left: 20px; /* Odmak od leve strane */
+    box-sizing: border-box; /* Da bi padding uticao na ukupnu širinu elementa */
+    
+}
+
+  
+button {
+    margin-top: 25px;
+    width: 465px;
+    height: 53px;
+    background: #FD6F60;
+    border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #FFFFFF;
+}
